@@ -1,0 +1,24 @@
+// callback function
+
+eight(science)
+
+function eight(kicuEkta){
+    console.log("I have passed class 8!");
+    kicuEkta();
+    
+}
+
+
+function science(){
+    console.log("I am choosing Science.");
+    
+}
+
+function commerce(){
+    console.log("I am choosing Commerce.");
+    
+}
+function Arts(){
+    console.log("I am choosing Arts.");
+    
+}
