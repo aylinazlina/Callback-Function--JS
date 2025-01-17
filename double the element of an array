@@ -1,0 +1,20 @@
+// double the element of an array using callback function
+
+const givenArray =[1,2,3,4,5];
+
+function changeArray(arr,doubleTheNumbers){
+
+    for(let i=0;i<arr.length;i++){
+
+        arr[i]=doubleTheNumbers(arr[i])
+        
+    }
+
+}
+
+changeArray(givenArray,(x)=>x*2);
+
+console.log(givenArray);
+
+
+
