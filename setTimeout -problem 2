@@ -1,0 +1,11 @@
+//! setTimeout in javascript
+//todo setTimeout ei function er bhitore je function ta print korte chai oitar reference ,time,parameter er value
+//todo setTimeout(reference,time,value)
+
+
+// ! problem 2
+
+setTimeout((x)=>{
+    console.log(`hi! I am ${x}`);
+    
+},2000,"Azlin Arabi Hossain Aylin");
