@@ -1,0 +1,15 @@
+//! setTimeout in javascript
+//todo setTimeout ei function er bhitore je function ta print korte chai oitar reference ,time,parameter er value
+//todo setTimeout(reference,time,value)
+
+//! problem one
+function displayNumber(num){
+
+
+    console.log(num);
+    
+
+}
+
+setTimeout(displayNumber,3000,5);
+
