@@ -1,0 +1,254 @@
+
+// todo synchronus callback function 
+//! callback hell
+
+function day1(one) {
+    setTimeout(() => {
+
+        console.log("exam1");
+
+        one()
+
+
+    }, 1000)
+
+}
+
+
+function day2(two) {
+    setTimeout(() => {
+        console.log("exam2");
+        two()
+
+    }, 2000)
+
+}
+
+
+function day3(three) {
+
+    setTimeout(() => {
+        console.log("exam3");
+        three()
+
+    }, 500)
+
+}
+
+function day4(four) {
+
+    setTimeout(() => {
+        console.log("exam4");
+        four()
+    }, 1200)
+
+}
+
+function day5(five) {
+    setTimeout(() => {
+        console.log("exam5");
+        five()
+
+    }, 2200)
+}
+
+
+function day6(six) {
+    setTimeout(() => {
+        console.log("exam6");
+        six()
+    }, 700)
+
+}
+
+
+function day7(seven) {
+    setTimeout(() => {
+        console.log("exam7");
+
+        seven()
+
+    }, 1100)
+}
+
+function day8(eight) {
+    setTimeout(() => {
+        console.log("exam8");
+
+        eight()
+
+    }, 200)
+}
+
+
+function day9() {
+    setTimeout(() => {
+        console.log("exam9");
+
+    }, 1300)
+}
+
+function day9(nine) {
+    setTimeout(() => {
+        console.log("exam9");
+
+        nine()
+
+
+    }, 2100)
+}
+
+function day10(ten) {
+    setTimeout(() => {
+        console.log("exam10");
+        ten()
+    }, 1600)
+}
+
+function day11(eleven) {
+    setTimeout(() => {
+
+        console.log("exam11");
+        eleven()
+
+
+    }, 400)
+}
+
+function day12(twoelve) {
+    setTimeout(() => {
+
+        console.log("exam12");
+
+        twoelve()
+
+
+    }, 150)
+}
+
+
+function day13(thirteen) {
+    setTimeout(() => {
+        console.log("exam13");
+        thirteen()
+    }, 120)
+}
+
+function day14(fourteen) {
+    setTimeout(() => {
+        console.log("exam14");
+        fourteen()
+
+    }, 700)
+}
+
+function day15(fiveteen) {
+    setTimeout(() => {
+        console.log("exam15");
+
+        fiveteen()
+
+    }, 250)
+}
+
+function day16(sixteen) {
+    setTimeout(() => {
+        console.log("exam16");
+        sixteen()
+    }, 1120)
+}
+
+function day17(seventeen) {
+    setTimeout(() => {
+        console.log("exam17");
+        seventeen()
+    }, 5500)
+}
+
+function day18(eighteen) {
+    setTimeout(() => {
+        console.log("exam18");
+        eighteen()
+    }, 2250)
+}
+
+function day19(ninteen) {
+    setTimeout(() => {
+        console.log("exam19");
+        ninteen()
+    }, 1700);
+}
+
+
+function day20() {
+    setTimeout(() => {
+        console.log("exam20");
+
+    }, 470)
+}
+
+
+day1(() => {
+
+    day2(() => {
+        day3(() => {
+            day4(() => {
+                day5(() => {
+
+                    day6(() => {
+
+                        day7(() => {
+
+                            day8(() => {
+
+                                day9(() => {
+
+                                    day10(() => {
+                                        day11(() => {
+
+                                            day12(() => {
+                                                day13(() => {
+                                                    day14(() => {
+                                                        day15(() => {
+                                                            day16(() => {
+
+                                                                day17(() => {
+
+                                                                    day18(() => {
+                                                                        day19(() => {
+                                                                            day20()
+                                                                        })
+                                                                    })
+
+                                                                })
+
+                                                            })
+
+                                                        })
+                                                    })
+                                                })
+                                            })
+
+                                        })
+                                    })
+
+                                })
+
+                            })
+
+                        })
+
+                    })
+
+                })
+
+            })
+
+        })
+
+    })
+
+})
+
+
+
