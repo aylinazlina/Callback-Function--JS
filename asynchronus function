@@ -1,0 +1,38 @@
+
+//asynchronus function 
+//order maintain na kore jar somoy kom lage sei age print hoi
+function day1(){
+    setTimeout(()=>{
+
+       console.log("exam1");
+        
+
+    },1000)
+
+}
+
+
+function day2(){
+    setTimeout(()=>{
+        console.log("exam2");
+        
+    },2000)
+
+}
+
+
+function day3(){
+
+    setTimeout(()=>{
+        console.log("exam3");
+        
+    },500)
+
+}
+
+day1()
+
+day2()
+
+day3()
+
